@@ -1,0 +1,6 @@
+#Source Dependencies
+#Wed Feb 09 04:25:48 JST 2011
+src/main/scala/baskingcat/game/AbstractGame.scala=
+src/main/scala/baskingcat/game/Scene.scala=src/main/scala/baskingcat/game/AbstractGame.scala
+src/main/scala/baskingcat/game/GameController.scala=src/main/scala/baskingcat/game/Scene.scala\:src/main/scala/baskingcat/game/AbstractGame.scala
+src/main/scala/baskingcat/game/Message.scala=src/main/scala/baskingcat/game/GameController.scala

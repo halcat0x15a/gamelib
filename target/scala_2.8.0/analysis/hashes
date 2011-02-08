@@ -1,0 +1,6 @@
+#Source Hashes
+#Wed Feb 09 04:25:48 JST 2011
+src/main/scala/baskingcat/game/AbstractGame.scala=30e55825b88768395ed9ac442118f0367d58b589
+src/main/scala/baskingcat/game/Scene.scala=1da2781430fc5ae0869dfeccbdfdf6bc7c6dd9e9
+src/main/scala/baskingcat/game/GameController.scala=b663f1dd12e7fbbcde5b00f7d3a5bdf2b800e2fc
+src/main/scala/baskingcat/game/Message.scala=660a343b5b1b809b93cd0b9539ceb040e237b149
