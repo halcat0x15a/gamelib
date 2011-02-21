@@ -4,7 +4,7 @@ import xml.{Group => _, _}
 import org.lwjgl.input._
 import org.lwjgl.util.input._
 
-final class GameController(keyMap: Map[Int, Int], buttonMap: Map[Int, Int]) {
+final class GameController(keys: Seq[Int], buttons: Seq[Int]) {
 
   {
     Keyboard.create()
@@ -19,8 +19,8 @@ final class GameController(keyMap: Map[Int, Int], buttonMap: Map[Int, Int]) {
 
   def buttonPressed(id: Int) = try {
     controller match {
-      case Some(controller) => controller.isButtonPressed(buttonMap(id))
-      case None => Keyboard.isKeyDown(keyMap(id))
+      case Some(controller) => controller.isButtonPressed(buttons(id))
+      case None => Keyboard.isKeyDown(keys(id))
     }
   } catch {
     case e => Message.systemError(e)
@@ -48,11 +48,10 @@ final class GameController(keyMap: Map[Int, Int], buttonMap: Map[Int, Int]) {
     }
   }
 
-  def next = if (controller.isDefined) {
+  def next = if (controller.isDefined)
     Controllers.next
-  } else {
+  else
     Keyboard.next
-  }
 
   def destroy() {
     Controllers.destroy()

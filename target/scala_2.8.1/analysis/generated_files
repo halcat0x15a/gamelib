@@ -1,0 +1,6 @@
+#Generated Classes
+#Tue Feb 22 02:48:33 JST 2011
+src/main/scala/baskingcat/game/AbstractGame.scala=target/scala_2.8.1/classes/baskingcat/game/AbstractGame$$anonfun$createMap$1$1.class\:target/scala_2.8.1/classes/baskingcat/game/AbstractGame.class
+src/main/scala/baskingcat/game/Scene.scala=target/scala_2.8.1/classes/baskingcat/game/Scene.class
+src/main/scala/baskingcat/game/GameController.scala=target/scala_2.8.1/classes/baskingcat/game/GameController.class
+src/main/scala/baskingcat/game/Message.scala=target/scala_2.8.1/classes/baskingcat/game/Message$.class\:target/scala_2.8.1/classes/baskingcat/game/Message.class

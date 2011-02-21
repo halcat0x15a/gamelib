@@ -1,0 +1,5 @@
+#External Dependencies
+#Tue Feb 22 02:48:33 JST 2011
+/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar=src/main/scala/baskingcat/game/Scene.scala\:src/main/scala/baskingcat/game/GameController.scala\:src/main/scala/baskingcat/game/AbstractGame.scala\:src/main/scala/baskingcat/game/Message.scala
+/home/halcat/projects/gamelib/lib/lwjgl.jar=src/main/scala/baskingcat/game/GameController.scala\:src/main/scala/baskingcat/game/AbstractGame.scala\:src/main/scala/baskingcat/game/Message.scala
+/home/halcat/projects/gamelib/project/boot/scala-2.8.1/lib/scala-library.jar=src/main/scala/baskingcat/game/Scene.scala\:src/main/scala/baskingcat/game/GameController.scala\:src/main/scala/baskingcat/game/AbstractGame.scala\:src/main/scala/baskingcat/game/Message.scala

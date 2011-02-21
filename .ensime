@@ -2,7 +2,7 @@
 
 (
 
-:project-package "com.baskingcat.game"
+:project-package "baskingcat.game"
 
 :use-sbt t
 
